@@ -1,0 +1,11 @@
+Package: AREsolver
+Type: Package
+Title: Solve the Algebraic Riccati equation
+Version: 1.0
+Date: 2021-01-24
+Author: Yunyi Shen
+Maintainer: Yunyi Shen <yyshen@pku.edu.cn>
+Description: Solve the Algebraic Riccati equation
+License: MIT
+Imports: Rcpp (>= 1.0.5)
+LinkingTo: Rcpp, RcppArmadillo
