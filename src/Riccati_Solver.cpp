@@ -6,7 +6,7 @@ using namespace arma;
 using namespace std;
 /* ARE_Solver_cpp solves Algebric Riccati Equations with the form
  - Continuous time
-    A'*P + P*A - PBR^-1 B'P+Q = 0, where P is symmetric.
+    A'*P + P*A - PB(R^-1) B'P+Q = 0, where P is symmetric.
  - Discrete time
     P=A'PA-(A'PB)(R+B'PB)^-1 (B'PA)+Q
 */
