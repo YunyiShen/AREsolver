@@ -64,7 +64,7 @@ solvecare <- function(A, B, Q, R){
     res <- tryCatch(CARE_ArimotoPotter_cpp(A,B,Q,R), error = function(e){e})
     if(!("matrix" %in% class(res))){
         warning("Arimoto Potter eigen method failed with message: \n")
-        warning(e)
+        warning(res$message)
         res <- matrix(NA, nrow(A),nrow(A))
     }
 
@@ -130,7 +130,7 @@ solvedare <- function(A, B, Q, R){
     res <- tryCatch(DARE_ArimotoPotter_cpp(A,B,Q,R), error = function(e){e})
     if(!("matrix" %in% class(res))){
         warning("Arimoto Potter eigen method failed with message: \n")
-        warning(e)
+        warning(res$message)
         res <- matrix(NA, nrow(A),nrow(A))
     }
 
