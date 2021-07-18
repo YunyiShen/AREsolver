@@ -1,9 +1,9 @@
 {
-    "path" : "/media/yunyi/Academia/WID-work/Utile_packages_for_Design/AREsolver/man",
-    "sortOrder" : [
+    "path": "/media/yunyi/Academia/WID-work/Utile_packages_for_Design/AREsolver",
+    "sortOrder": [
         {
-            "ascending" : true,
-            "columnIndex" : 2
+            "columnIndex": 2,
+            "ascending": true
         }
     ]
 }
